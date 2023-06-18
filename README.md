@@ -85,7 +85,7 @@ app.listen(PORT, () => {
 FROM ubuntu:latest
 # Informacje o autorze
 LABEL author="Adrian Kruczynski"
-# Utowrzenie katalogu roboczego
+# Utworzenie katalogu roboczego
 RUN mkdir -p /var/www/html
 # Przekopiowanie aplikacji z hosta do kontenera
 COPY server/* /var/www/html
